@@ -8,7 +8,7 @@
 
     <!-- css stuff -->
     <!-- link to reset -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/main.css">
     <title>Modules as a Concepts</title>
 </head>
 
@@ -26,7 +26,20 @@
     </nav>
 
     <main>
-        <section id="section1" class="panel"></section>
+        <section id="section1" class="panel">
+            <div class="bio-wrapper">
+            <h1 class="u-name">Click on a team memeber icon below!</h1>
+            <p class="u-bio"></p>
+            <p class="u-role"></p>
+            <!-- img tag, set its source using the object -->
+            <img src="temp.jpg" alt="team bio page" class="u-avatar">
+            </div>
+
+            
+
+            <!-- dynamically add some team buttons here -->
+
+        </section>
         <section id="section2" class="panel">panel 2</section>
         <section id="section3" class="panel"></section>
         <section id="section4" class="panel">panel 4</section>
@@ -46,6 +59,8 @@
     </footer>
 
     <a id="to-top" href="#" class="nav-item">back to top</a>
+
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
